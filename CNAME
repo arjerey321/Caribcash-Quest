@@ -1,4 +1,3 @@
-www.caribcashquest.com
 # Create a CNAME file with the custom domain
 cname_content = "www.caribcashquest.com"
 
