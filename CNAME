@@ -1,1 +1,12 @@
 www.caribcashquest.com
+# Create a CNAME file with the custom domain
+cname_content = "www.caribcashquest.com"
+
+# Save the file
+cname_path = "/mnt/data/CNAME"
+with open(cname_path, "w") as f:
+    f.write(cname_content)
+
+cname_path
+Result
+'/mnt/data/CNAME'
